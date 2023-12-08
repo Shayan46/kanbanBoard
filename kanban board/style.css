@@ -65,3 +65,75 @@ background-color: green;
     font-size: 2rems;
 
 }
+
+.modal-cont{
+    height: 50vh;
+    width: 120vh;
+    margin-left: 8rem;
+    margin-top: 3rem;
+    background-color: grey;
+    display:none;
+    border: 2px solid rgb(255, 3, 3);
+    position: absolute;
+    left: 25vh;
+    top: 25vh;
+}
+
+.textarea-cont{
+    height : 100%;
+    width : 75%;
+    outline : none;
+    border-right : 2px solid black;
+    font-size: 2rem;
+    padding: 2rem;
+    resize: none;
+}
+
+.priority-color-cont{
+    height: 100%;
+    width: 25%;
+    background-color: aliceblue;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.priority-color{
+    height: 3rem;
+    width: 5rem;
+}
+
+.main-cont{
+    margin-top: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: space-evenly;
+} 
+
+.ticket-cont{
+    height: 10rem;
+    width: 15rem;
+    background-color: rgb(243, 250, 181);
+}
+
+.ticket-color{
+    height: 1rem;
+}
+
+.ticket-id{
+    background-color: grey;
+    height: 1.5rem;
+    font-weight: 600;
+}
+
+.ticket-area{
+    height: 7.5rem;
+    padding: 5px;
+    font-size: 1.25rem;
+}
+
+.active{
+    border: 5px solid yellow;
+}
