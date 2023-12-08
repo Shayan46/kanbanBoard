@@ -73,7 +73,7 @@ background-color: green;
     margin-top: 3rem;
     background-color: grey;
     display:none;
-    border: 2px solid rgb(255, 3, 3);
+    border: 2px solid rgb(17, 17, 17);
     position: absolute;
     left: 25vh;
     top: 25vh;
@@ -92,7 +92,7 @@ background-color: green;
 .priority-color-cont{
     height: 100%;
     width: 25%;
-    background-color: aliceblue;
+    background-color:aliceblue;
     align-items: center;
     display: flex;
     flex-direction: column;
@@ -115,7 +115,7 @@ background-color: green;
 .ticket-cont{
     height: 10rem;
     width: 15rem;
-    background-color: rgb(243, 250, 181);
+    background-color: rgb(235, 250, 181);
 }
 
 .ticket-color{
@@ -126,6 +126,7 @@ background-color: green;
     background-color: grey;
     height: 1.5rem;
     font-weight: 600;
+    font-size: 0.75rem;
 }
 
 .ticket-area{
