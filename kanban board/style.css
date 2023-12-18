@@ -135,6 +135,12 @@ background-color: green;
     font-size: 1.25rem;
 }
 
+.lock-unlock{
+    margin-top : -28px;
+    margin-left: 215px;
+    font-size: 1.2rem;
+}
+
 .active{
     border: 5px solid yellow;
 }
